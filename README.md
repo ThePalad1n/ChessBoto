@@ -9,7 +9,7 @@ Objectives: To get a better idea of Chess Assistant features using machine learn
 
 Class/Block Diagram:
 
-<img src="diagram.png" alt="Girl in a jacket" width="500" height="600">
+<img src="diagram.png" alt="Girl in a jacket" width="1000" height="600">
 
 
 Contribution Plan: First week will be spent implementing Phases 1 and 1.5, second week will be getting the general format of the ANN, third week will be spent tuning the activation functions and creating the chess AI (teaching it abstract concepts such as space, position and material), fourth week will be playtesting the AI and building the report.

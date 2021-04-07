@@ -12,14 +12,15 @@
   #If a pawn makes it all the way to the end of the board to promote to a new piece, add a “=” symbol
   
 
-import chess
-import numpy as np
-import pandas as pd
+#import chess
+#import numpy as np
+#import pandas as pd
 # Keras is to create the Neural Network.
-from tensorflow import keras
-from tensorflow.keras import layers
+#from tensorflow import keras
+#from tensorflow.keras import layers
 
-df = pd.read_fwf('chess_data.txt')
-data = df['moves'].tolist()[:500]
-split_data = []
-indice = 500
+#df = pd.read_fwf('chess_data.txt')
+#data = df['moves'].tolist()[:500]
+#split_data = []
+#indice = 500
+sandbox()

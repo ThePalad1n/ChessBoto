@@ -1,5 +1,7 @@
 # ChessBoto
 ***This is a chess bot for cmpsc 445***
+
+
 Abstract:  Using SVM’s, Neural Networks, and Bayesian Classifiers we are planning to code a chess AI to help out new players who are trying to win.
 
 Goal: Our goal is to create Chess Assistant AI, given a sequence of moves by White and Black predicts the best move for the current player. And to figure it out who will be the winner.

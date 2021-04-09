@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
+#King = K, Queen = Q, Bishop = B, Knight = N, Rook = R, Pawn = no notation.
+#Capturing an enemy piece sees an “x” placed between the piece moved and the square the captured piece was upon.
+#When the opponent’s king is threatened by check, a “+” sign is added to the end of the notation.
+#Checkmate is denoted with either “++” or “#”
+#From left-to-right the squares are ordered alphabetically with letters from “a” through to “h”.
+#Additionally, Each square also gets a unique number, from “1” to “8”. 
+#Castling kingside (with the rook that begins on the “h” file), is written as “0-0”. 
+#Castling queenside (with the rook that begins on the “a” file) is notated with “0-0-0”.
+#If a pawn makes it all the way to the end of the board to promote to a new piece, add a “=” symbol
 
 # In[1]:
 

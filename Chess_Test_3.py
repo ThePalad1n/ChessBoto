@@ -15,6 +15,7 @@
 
 import chess
 import re
+import csv
 
 
 # In[2]:
@@ -50,7 +51,7 @@ print(board.board_fen())
 # In[4]:
 
 
-database = open("C:/Users/nickg/OneDrive/Documents/CMPSC 445/Final Project/Final Project Dataset/ficsgamesdb_search_195908.pgn",'r')
+database = open("2016_CvH.csv",'r')
 
 
 # In[5]:

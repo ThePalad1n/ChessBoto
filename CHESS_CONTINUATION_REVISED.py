@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[18]:
+# In[9]:
 
 
 #!/usr/bin/env python
@@ -22,7 +22,9 @@
 import chess
 import re
 import csv
-
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
 
 # In[2]:
 
@@ -76,6 +78,7 @@ a = text.split()
 # In[7]:
 
 TotalGames = []
+TotalGameAnswers = []
 k = 1
 play = False
 End = False
@@ -99,14 +102,20 @@ for i in (range(3,len(a))):
         play = False
         
         if ((board2.board_fen() == boardtest) and "1." not in a[i+k]):
-            TotalGames.append([b[0],b[1],b[2],b[3],a[i + k]])
+            TotalGames.append([b[0],b[1]])
+            TotalGameAnswers.append([b[2],a[i + k]])
         moves = -1
         End = False
         board2 = chess.Board()
         
 
         
-print(TotalGames)
+df = pd.DataFrame(np.array(TotalGames),
+                   columns = ['WhiteELO', 'BlackELO'])
+dfAnswers = pd.DataFrame(np.array(TotalGameAnswers),
+                        columns = ['Winner', 'NextMove'])
+print(df)
+print(dfAnswers)
 
 # In[ ]:
 
@@ -114,16 +123,11 @@ print(TotalGames)
 
 
 
-# In[ ]:
+# In[2]:
 
 
-
-
-
-# In[ ]:
-
-
-
+import pandas as pd
+import numpy as np
 
 
 # In[ ]:
@@ -132,10 +136,45 @@ print(TotalGames)
 
 
 
+# In[3]:
+
+
+print(df)
+
+
+# In[4]:
+
+
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+
+
 # In[ ]:
 
 
 
+
+
+# In[5]:
+
+
+X_train, X_test, y_train, y_test = train_test_split(df, dfAnswers, test_size=0.3, random_state=42)
+
+
+# In[6]:
+
+
+scaler.fit(X_train)
+print(X_train.min())
+print(X_train.max())
+ScaledData=scaler.transform(X_train)
+
+
+# In[8]:
+
+
+print(ScaledData.min())
+print(ScaledData.max())
 
 
 # In[ ]:

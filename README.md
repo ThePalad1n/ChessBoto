@@ -16,3 +16,6 @@ Class/Block Diagram:
 
 Contribution Plan: First week will be spent implementing Phases 1 and 1.5, second week will be getting the general format of the ANN, third week will be spent tuning the activation functions and creating the chess AI (teaching it abstract concepts such as space, position and material), fourth week will be playtesting the AI and building the report.
 
+
+
+<img src="chessboard.png" width="1000" height="600">

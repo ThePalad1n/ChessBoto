@@ -18,4 +18,13 @@ Contribution Plan: First week will be spent implementing Phases 1 and 1.5, secon
 
 
 
+Here is an example run through for our project. We are going to enter 'e4' as our move. Then our project will run through the 10000 cases we set from the test data, test, train, and then are plotted on the scatter plot to show a result like this:
+<img src="e410000predict.png" width="1000" height="600">
+
+
+From this image we see there are quite a few moves becasue a lot of the test pool resonates in the beginning few moves. So by inputing the next move by 'f5' we now get a new chart to see what whites move will be when predicted. We got: 
+
+
+
+
 <img src="chessboard.jpg" width="1000" height="600">

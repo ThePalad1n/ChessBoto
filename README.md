@@ -18,4 +18,4 @@ Contribution Plan: First week will be spent implementing Phases 1 and 1.5, secon
 
 
 
-<img src="chessboard.png" width="1000" height="600">
+<img src="chessboard.jpg" width="1000" height="600">

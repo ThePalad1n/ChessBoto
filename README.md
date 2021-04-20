@@ -25,7 +25,7 @@ Here is an example run through for our project. We are going to enter 'e4' as ou
 <img src="e410000predict.png" width="1000" height="600">
 
 
-From this image we see there are quite a few moves becasue a lot of the test pool resonates in the beginning few moves. So by inputing the next move by 'f5' we now get a new chart to see what whites move will be when predicted. We got: 
+From this image we see there are quite a few moves becasue a lot of the test pool resonates in the beginning few moves. So by inputing the next move by 'd5' we now get a new chart to see what whites move will be when predicted. We got: 
 
 <img src="b5time.png" width="1000" height="600">
 

@@ -56,7 +56,7 @@ def gmBoard(board):
     # In[4]:
 
     #Opening chess database
-    database = open("2016_CvH.csv",'r')
+    database = open("dataFinal.csv",'r')
 
 
     # In[5]:
